@@ -1,9 +1,14 @@
-# Project Summary
+# **Predictive Maintenance System for Automotive Engines using Machine Learning**
+This project is a part of the AAI-501 course in the Applied Artificial Intelligence Program at the University of San Diego (USD).
+
+
+## Project Summary
 
 This project aimed to develop a system for predictive maintenance of automotive engines using machine learning. It addressed two key problems:
 - Engine condition classification
 - Anomaly detection in lubricant oil pressure
 
+## Project Status: **Completed**
 ---
 
 ## Exploratory Data Analysis (EDA)
