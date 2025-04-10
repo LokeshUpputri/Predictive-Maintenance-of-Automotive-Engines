@@ -9,7 +9,63 @@ This project aimed to develop a system for predictive maintenance of automotive 
 - Anomaly detection in lubricant oil pressure
 
 ## Project Status: **Completed**
----
+
+## Installation
+
+Follow the steps below to set up and run this project:
+
+### 1. Clone the repository
+`git clone <repository_url>`
+
+### 2. Create a virtual environment
+`python -m venv env`
+
+### 3. Activate the virtual environment
+- For Linux/Mac:  
+`source env/bin/activate`
+
+- For Windows:  
+`env\Scripts\activate`
+
+### 4. Install required dependencies
+`pip install -r requirements.txt`
+
+### 5. Run the Jupyter Notebook
+`jupyter notebook Project_Automotive_Vehicle.ipynb`
+
+## Partner(s) / Contributor(s)
+
+- Manoj Nair
+- Samiksha Kodgire
+- Lokesh Upputri
+
+## Project Description
+
+### Dataset Details:
+
+- Total Records: 19,535
+- Number of Features: 7
+
+| Feature            | Description                                |
+|-------------------|--------------------------------------------|
+| Engine rpm        | Rotations per minute of the engine         |
+| Lub oil pressure  | Lubricating oil pressure                   |
+| Fuel pressure     | Fuel system pressure                       |
+| Coolant pressure  | Engine coolant pressure                    |
+| Lub oil temp      | Temperature of lubricating oil             |
+| Coolant temp      | Temperature of engine coolant              |
+| Engine Condition  | Target Variable: 0 (Normal), 1 (Abnormal) |
+
+### Data Source:
+[https://www.kaggle.com/datasets/parvmodi/automotive-vehicles-engine-health-dataset](https://www.kaggle.com/datasets/parvmodi/automotive-vehicles-engine-health-dataset)
+
+## Goals & Hypotheses
+
+1. Classify the engine condition (*Normal* or *Abnormal*) based on sensor readings.
+
+2. Predict Lubricating Oil Pressure using other engine parameters.
+
+3. Identify anomalies where actual vs predicted values significantly differ.
 
 ## Exploratory Data Analysis (EDA)
 
